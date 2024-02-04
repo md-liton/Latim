@@ -5,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 const Navbar = () => {
   return (
     <>
-    <section  className=' fixed top-0 left-0 w-full bg-[#000]'>
+    <section  className=' fixed top-0 left-0 w-full bg-[#000] z-[999]'>
         <div className="max-w-container mx-auto">
             <div className="navbar_main flex justify-center items-center py-[10px]">
                 <div className='w-[15%]'>
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='w-[15%]'>
-                    <div className='text-[15px] font-heading bg-red-500 cursor-pointer text-center text-white py-[15px] rounded-[10px]'>Longing/Register</div>
+                    <div className='text-[15px] font-heading bg-red-500 cursor-pointer text-center text-white py-[15px] rounded-[10px]'>Login/Register</div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import Banner from "./HomePage/Banner/Banner"
 import Bollywood from "./HomePage/Bollywood/Bollywood"
 import Dhallywood from "./HomePage/Dhallywood/Dhallywood"
+import Footer from "./HomePage/Footer/Footer"
 import Free from "./HomePage/Free/Free"
 import Gift from "./HomePage/Gift/Gift"
 import Hollywood from "./HomePage/Hollywood/Hollywood"
@@ -33,6 +34,7 @@ function App() {
     <Dhallywood/>
     <Shorts/>
     <Trailer/>
+    <Footer/>
     </>
   )
 }
